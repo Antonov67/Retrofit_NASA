@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SE</string>
+    <string name="connection_problems">Server communication failed!</string>
+    <string name="search">Search</string>
+    <string name="yyyy_mm_dd">YYYY-MM-DD</string>
+    <string name="navcam">navcam</string>
+    <string name="fhaz">fhaz</string>
+    <string name="nothing">No photos found</string>
+</resources>
