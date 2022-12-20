@@ -57,10 +57,6 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        retrofit = new Retrofit.Builder()
-                .baseUrl(BASE_URL)
-                .addConverterFactory(GsonConverterFactory.create())
-                .build();
         MarsService service = retrofit.create(MarsService.class);
         btSearch.setOnClickListener(view -> {
             wvResult.loadUrl(BLANK_URL);
